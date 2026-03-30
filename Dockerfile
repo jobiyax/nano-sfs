@@ -7,7 +7,7 @@ ENV CGO_ENABLED=0 GOOS=linux GOARCH=amd64
 WORKDIR /app
 
 # Copier les fichiers de module pour gérer les dépendances
-COPY go.mod go.sum ./
+COPY go.mod go.* ./
 RUN go mod tidy
 
 # Copier le code source
