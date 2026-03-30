@@ -1,0 +1,8 @@
+# Binaire
+nano-sfs
+
+# OS
+.DS_Store
+
+# Logs
+*.log
